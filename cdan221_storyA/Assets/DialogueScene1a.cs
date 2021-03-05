@@ -40,7 +40,7 @@ public class DialogueScene1a : MonoBehaviour
         nextButton.SetActive(true);
     }
 
-    void Update()
+    void FixedUpdate()
     {         // use spacebar as Next button
         if (allowSpace == true)
         {
