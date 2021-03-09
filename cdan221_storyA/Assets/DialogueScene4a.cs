@@ -64,6 +64,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Finally, the dungeon!";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
        else if (primeInt ==3){
 			    ArtChar1.SetActive(true);
@@ -120,7 +122,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "PRISONER";
-                Char2speech.text = "Ya know, big guy with the black hood? Oh, speak of the devil.";
+                Char2speech.text = "Ya know, big guy with the black hood?";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -129,7 +131,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "PRISONER";
-                Char2speech.text = "Ya know, big guy with the black hood? \nOh, speak of the devil.";
+                Char2speech.text = "Ya know, big guy with the black hood?\nOh, speak of the devil.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
