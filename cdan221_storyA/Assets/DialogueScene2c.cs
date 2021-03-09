@@ -68,6 +68,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Jeez, what is this place?";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
        else if (primeInt ==3){
 			    ArtChar1.SetActive(true);
@@ -81,7 +83,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 		else if (primeInt == 4){
                 ArtChar1.SetActive(true);
-			    ArtChar2.SetActive(false);
+			    ArtChar2.SetActive(true);
 				ArtChar3.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -132,7 +134,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
-                Char2speech.text = "I need 50 gallons of vinegar by dawn, otherwise it’s your turn in the juicer!\n Hah hah hah!";
+                Char2speech.text = "I need 50 gallons of vinegar by dawn, otherwise it’s your turn in the juicer!\nHah hah hah!";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -157,7 +159,7 @@ public void talking(){         // main story function. Players hit next to progr
 		}
 		else if (primeInt == 105){
                 Char1name.text = "YOU";
-                Char1speech.text = "So, this is a vinegar station, huh?\n Looks like some kind of meat grinder that produces A liquid?";
+                Char1speech.text = "So, this is a vinegar station, huh?\nLooks like some kind of meat grinder that produces a liquid?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 nextButton.SetActive(true);
@@ -166,7 +168,7 @@ public void talking(){         // main story function. Players hit next to progr
 		}
 		else if (primeInt == 106){
                 Char1name.text = "YOU";
-                Char1speech.text = "So, this is a vinegar station, huh?\n Looks like some kind of meat grinder that produces A liquid?\n What the hell is going on here?";
+                Char1speech.text = "So, this is a vinegar station, huh?\nLooks like some kind of meat grinder that produces a liquid?\nWhat the hell is going on here?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 nextButton.SetActive(true);
@@ -211,13 +213,13 @@ public void talking(){         // main story function. Players hit next to progr
 		}
 		else if (primeInt == 111){
                 Char1name.text = "YOU";
-                Char1speech.text = "I feel if I stay here long enough, Agatha will surely be the end of me.\n I could always book it outta here and hop down that trash chute Agatha is scraping the left-over food into…";
+                Char1speech.text = "I could always book it outta here and hop down that trash chute Agatha is scraping the left-over food into…";
                 Char2name.text = "";
                 Char2speech.text = "";
                 nextButton.SetActive(false);
                 allowSpace = false;
-                Choice1a.SetActive(true); // function Choice1aFunct() Let's get to grinding!
-                Choice1b.SetActive(true); // function Choice1bFunct() I'm as good as dead if I stay, down the chute!
+                Choice2a.SetActive(true); // function Choice1aFunct() Let's get to grinding!
+                Choice2b.SetActive(true); // function Choice1bFunct() I'm as good as dead if I stay, down the chute!
 		}
 		
 		else if (primeInt == 300){
@@ -442,7 +444,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "";
 				Char3name.text = "";
 				Char3speech.text = "";
-                nextButton.SetActive(true);
+                nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
 				NextScene2Button.SetActive(true);
@@ -457,7 +459,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "Woah! Nooooooo, come back here!";
 				Char3name.text = "";
 				Char3speech.text = "";
-                nextButton.SetActive(true);
+                nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
 				NextScene2Button.SetActive(false);
@@ -493,8 +495,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 299;
-                Choice1a.SetActive(false);
-                Choice1b.SetActive(false);
+                Choice2a.SetActive(false);
+                Choice2b.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
         }
@@ -504,8 +506,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 399;
-                Choice1a.SetActive(false);
-                Choice1b.SetActive(false);
+                Choice2a.SetActive(false);
+                Choice2b.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
         }

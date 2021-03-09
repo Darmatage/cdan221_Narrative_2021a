@@ -286,8 +286,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: SceneChange2a
+      - m_Target: {fileID: 195855774}
+        m_MethodName: SceneChange2c
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -470,8 +470,6 @@ MonoBehaviour:
   ArtBG1: {fileID: 666612151}
   Choice1a: {fileID: 1048720497}
   Choice1b: {fileID: 2103079615}
-  Choice2a: {fileID: 0}
-  Choice2b: {fileID: 0}
   NextScene1Button: {fileID: 1044974860}
   NextScene2Button: {fileID: 1690294647}
   NextScene3Button: {fileID: 111381437}
@@ -1161,7 +1159,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 195855774}
         m_MethodName: SceneChange2a
         m_Mode: 1
         m_Arguments:
@@ -1291,7 +1289,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 195855774}
         m_MethodName: Choice1aFunct
         m_Mode: 1
         m_Arguments:
@@ -1421,7 +1419,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 195855774}
         m_MethodName: talking
         m_Mode: 1
         m_Arguments:
@@ -2168,7 +2166,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 195855774}
         m_MethodName: SceneChange2b
         m_Mode: 1
         m_Arguments:
@@ -2606,7 +2604,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 195855774}
         m_MethodName: Choice1bFunct
         m_Mode: 1
         m_Arguments:

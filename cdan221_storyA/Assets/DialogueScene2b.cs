@@ -317,8 +317,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "OGRE";
                 Char2speech.text = "Oh, my name’s Grugga, but most people call me Stewie!";
                 primeInt = 299;
-                Choice1a.SetActive(false);
-                Choice1b.SetActive(false);
+                Choice2a.SetActive(false);
+                Choice2b.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
         }
@@ -328,8 +328,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "OGRE";
                 Char2speech.text = "Stay safe!";
                 primeInt = 399;
-                Choice1a.SetActive(false);
-                Choice1b.SetActive(false);
+                Choice2a.SetActive(false);
+                Choice2b.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
         }

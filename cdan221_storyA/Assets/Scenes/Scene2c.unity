@@ -889,8 +889,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Choice1bFunct
+      - m_Target: {fileID: 195855774}
+        m_MethodName: Choice2bFunct
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1019,8 +1019,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Choice1aFunct
+      - m_Target: {fileID: 195855774}
+        m_MethodName: Choice2aFunct
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1136,7 +1136,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I've never met an ogre.
+  m_Text: The what?
 --- !u!222 &855909326
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1371,7 +1371,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 195855774}
         m_MethodName: SceneChange2a
         m_Mode: 1
         m_Arguments:
@@ -1501,7 +1501,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 195855774}
         m_MethodName: Choice1aFunct
         m_Mode: 1
         m_Arguments:
@@ -1631,7 +1631,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 195855774}
         m_MethodName: talking
         m_Mode: 1
         m_Arguments:
@@ -2131,7 +2131,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: That ogre looks scary.
+  m_Text: Uhhhhh..... surprise!
 --- !u!222 &1505110213
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2300,7 +2300,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 195855774}
         m_MethodName: SceneChange2b
         m_Mode: 1
         m_Arguments:
@@ -2890,7 +2890,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 195855774}
         m_MethodName: Choice1bFunct
         m_Mode: 1
         m_Arguments:
