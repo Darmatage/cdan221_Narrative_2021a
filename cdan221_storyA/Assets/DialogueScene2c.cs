@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
-public class DialogueScene2b : MonoBehaviour {
+public class DialogueScene2c : MonoBehaviour {
         public int primeInt = 1; // This integer drives game progress!
         public Text Char1name;
         public Text Char1speech;
@@ -116,7 +116,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "Here it is, my trusty vinegar station! Well, I’m sure you know what you're doing.";    
                 nextButton.SetActive(true);
                 allowSpace = false;
-                NextScene1Button.SetActive(false)	
+                NextScene1Button.SetActive(false);
                 NextScene2Button.SetActive(false);			
         }
        else if (primeInt == 101){
@@ -228,8 +228,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "AH";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -242,8 +242,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "BLUE HUMANOIDS"
-				Char3speech.text = "HIDE HIDE HIDE!!!"
+				Char3name.text = "BLUE HUMANOIDS";
+				Char3speech.text = "HIDE HIDE HIDE!!!";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -256,8 +256,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "WHAT THE HELL!";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -270,8 +270,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Uhhhhh uhhh um...";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -284,8 +284,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Uhhhhh uhhh um...\n That barrel over there! That looks as good a spot as any!";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -300,8 +300,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -314,8 +314,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "On second thought.... this may have been the wrong call.";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -328,8 +328,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Lemme just hop out and-";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -342,8 +342,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Oh-";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -356,8 +356,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Oh-\n Oh no!";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -370,8 +370,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Oh-\n Oh no!\n Please open, please!";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -384,8 +384,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
                 Char2speech.text = "Ohhhhh vinegar boy!";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -398,8 +398,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
                 Char2speech.text = "Ohhhhh vinegar boy!\n Where aaaaaaare youuuu?";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -412,8 +412,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
                 Char2speech.text = "COME OUT NOW!";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -426,8 +426,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Well, at least it seems like Agatha won't be able to find me in here.";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -440,8 +440,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "But will anyone find and rescue me?";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -455,15 +455,15 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
                 Char2speech.text = "Woah! Nooooooo, come back here!";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
 				NextScene2Button.SetActive(false);
         }
 	   
-
+}
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and #2 and switch scenes)
         public void Choice1aFunct(){
                 Char1name.text = "";

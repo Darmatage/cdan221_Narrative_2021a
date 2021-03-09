@@ -467,6 +467,8 @@ MonoBehaviour:
   ArtBG1: {fileID: 666612151}
   Choice1a: {fileID: 1048720497}
   Choice1b: {fileID: 2103079615}
+  Choice2a: {fileID: 1391343660}
+  Choice2b: {fileID: 76518590}
   NextScene1Button: {fileID: 1044974860}
   NextScene2Button: {fileID: 1690294647}
   nextButton: {fileID: 1058466904}

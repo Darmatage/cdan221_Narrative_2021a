@@ -102,7 +102,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "";     
 				nextButton.SetActive(true);
                 allowSpace = false;
-                NextScene1Button.SetActive(false)
+                NextScene1Button.SetActive(false);
 				NextScene2Button.SetActive(false);
         }
        else if (primeInt == 101){
@@ -198,7 +198,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
                 Char2speech.text = "Oh, just down this hatch my friend!";
-                nextButton.SetActive(false);
+                nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
@@ -207,7 +207,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
                 Char2speech.text = "Oh, just down this hatch my friend!\n I have to warn you though, it’s pretty spooky down there.";
-                nextButton.SetActive(false);
+                nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
@@ -216,7 +216,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
                 Char2speech.text = "They got the whole set-up going on.";
-                nextButton.SetActive(false);
+                nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
@@ -225,7 +225,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
                 Char2speech.text = "They got the whole set-up going on.\n We’re talking giant rats, skeletons hanging from shackles, eternal screaming of those who made an enemy of the king.";
-                nextButton.SetActive(false);
+                nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
@@ -234,7 +234,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Uh-huh….. Okay, thanks for the tip.";
                 Char2name.text = "";
                 Char2speech.text = "";
-                nextButton.SetActive(false);
+                nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
@@ -243,7 +243,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Uh-huh….. Okay, thanks for the tip.\n Guess I’ll be on my way. Don’t wanna keep those rats waiting!";
                 Char2name.text = "";
                 Char2speech.text = "";
-                nextButton.SetActive(false);
+                nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
@@ -252,7 +252,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
                 Char2speech.text = "Hey, I can't blame ya! Good luckdown there pal!";
-                nextButton.SetActive(false);
+                nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
@@ -287,7 +287,7 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = false;
                 NextScene2Button.SetActive(true);
         }
-
+}
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and #2 and switch scenes)
         public void Choice1aFunct(){
                 Char1name.text = "";

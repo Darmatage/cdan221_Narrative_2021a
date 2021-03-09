@@ -325,7 +325,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 195855769}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d047fd544c4a325438d6925320a4d1cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 497551f9f5d10b7428c441b875907b14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   primeInt: 1
@@ -333,12 +333,18 @@ MonoBehaviour:
   Char1speech: {fileID: 1604993592}
   Char2name: {fileID: 1847807957}
   Char2speech: {fileID: 1729244029}
+  Char3name: {fileID: 1862249930}
+  Char3speech: {fileID: 594568322}
   dialogue: {fileID: 1488408769}
   ArtChar1: {fileID: 1818297103}
   ArtChar2: {fileID: 1408452256}
+  ArtChar3: {fileID: 289170939}
   ArtBG1: {fileID: 666612151}
+  ArtBG2: {fileID: 2059476624}
   Choice1a: {fileID: 1048720497}
   Choice1b: {fileID: 2103079615}
+  Choice2a: {fileID: 782634824}
+  Choice2b: {fileID: 730636375}
   NextScene1Button: {fileID: 1044974860}
   NextScene2Button: {fileID: 1690294647}
   nextButton: {fileID: 1058466904}
@@ -883,7 +889,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: Choice1bFunct
         m_Mode: 1
         m_Arguments:
@@ -1013,7 +1019,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: Choice1aFunct
         m_Mode: 1
         m_Arguments:
@@ -1365,7 +1371,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: SceneChange2a
         m_Mode: 1
         m_Arguments:
@@ -1495,7 +1501,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: Choice1aFunct
         m_Mode: 1
         m_Arguments:
@@ -1625,7 +1631,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: talking
         m_Mode: 1
         m_Arguments:
@@ -2294,7 +2300,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: SceneChange2b
         m_Mode: 1
         m_Arguments:
@@ -2884,7 +2890,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: Choice1bFunct
         m_Mode: 1
         m_Arguments:

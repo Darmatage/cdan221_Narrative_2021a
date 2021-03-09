@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
-public class DialogueScene2b : MonoBehaviour {
+public class DialogueScene4a : MonoBehaviour {
         public int primeInt = 1; // This integer drives game progress!
         public Text Char1name;
         public Text Char1speech;
@@ -20,8 +20,6 @@ public class DialogueScene2b : MonoBehaviour {
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
-		public GameObject Choice2a;
-        public GameObject Choice2b;
         public GameObject NextScene1Button;
         public GameObject NextScene2Button;
 		public GameObject NextScene3Button;
@@ -38,8 +36,6 @@ void Start(){         // initial visibility settings
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
-		Choice2a.SetActive(false);
-        Choice2b.SetActive(false);
         NextScene1Button.SetActive(false);
         NextScene2Button.SetActive(false);
 		NextScene3Button.SetActive(false);
@@ -116,7 +112,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "Well, there was a chalice, but as most valuable things go down here, it was confiscated by the dungeon keeper.";    
                 nextButton.SetActive(true);
                 allowSpace = false;
-                NextScene1Button.SetActive(false)	
+                NextScene1Button.SetActive(false);	
                 NextScene2Button.SetActive(false);
 				NextScene3Button.SetActive(false);				
         }
@@ -146,8 +142,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER"
-				Char3speech.text = "What’s this about my chalice?"
+				Char3name.text = "DUNGEON KEEPER";
+				Char3speech.text = "What’s this about my chalice?";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -160,8 +156,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER"
-				Char3speech.text = "What’s this about my chalice?\n You want to get your grubby little hands on it?"
+				Char3name.text = "DUNGEON KEEPER";
+				Char3speech.text = "What’s this about my chalice?\n You want to get your grubby little hands on it?";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -174,8 +170,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Well, I am the rightful owner of it.";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -188,8 +184,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER"
-				Char3speech.text = "Hah, okay little man!"
+				Char3name.text = "DUNGEON KEEPER";
+				Char3speech.text = "Hah, okay little man!";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -202,8 +198,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER"
-				Char3speech.text = "I'll tell ya what."
+				Char3name.text = "DUNGEON KEEPER";
+				Char3speech.text = "I'll tell ya what.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -216,8 +212,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER"
-				Char3speech.text = "I'll tell ya what.\n Tonight we’re holding the annual prison bloodbath."
+				Char3name.text = "DUNGEON KEEPER";
+				Char3speech.text = "I'll tell ya what.\n Tonight we’re holding the annual prison bloodbath.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -230,8 +226,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER"
-				Char3speech.text = "I'll tell ya what.\n Tonight we’re holding the annual prison bloodbath.\n Two people enter, only one leaves."
+				Char3name.text = "DUNGEON KEEPER";
+				Char3speech.text = "I'll tell ya what.\n Tonight we’re holding the annual prison bloodbath.\n Two people enter, only one leaves.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -244,8 +240,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER"
-				Char3speech.text = "You want your chalice, win against just one of the contenders."
+				Char3name.text = "DUNGEON KEEPER";
+				Char3speech.text = "You want your chalice, win against just one of the contenders.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -258,8 +254,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER"
-				Char3speech.text = "You want your chalice, win against just one of the contenders.\n This little chalice is nothing compared to the grand prize, so just one win should suffice."
+				Char3name.text = "DUNGEON KEEPER";
+				Char3speech.text = "You want your chalice, win against just one of the contenders.\n This little chalice is nothing compared to the grand prize, so just one win should suffice.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -272,8 +268,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "You've gotta be kidding me...";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = ""
-				Char3speech.text = ""
+				Char3name.text = "";
+				Char3speech.text = "";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -286,8 +282,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER"
-				Char3speech.text = "Cry me a boat bub."
+				Char3name.text = "DUNGEON KEEPER";
+				Char3speech.text = "Cry me a boat bub.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -300,8 +296,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER"
-				Char3speech.text = "Now, I’ll list three names, you pick who you wanna go up against and I’ll send you to the right arena where you’ll wait for your opponent to show."
+				Char3name.text = "DUNGEON KEEPER";
+				Char3speech.text = "Now, I’ll list three names, you pick who you wanna go up against and I’ll send you to the right arena where you’ll wait for your opponent to show.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -314,8 +310,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER"
-				Char3speech.text = "Think carefully, names can be deceiving."
+				Char3name.text = "DUNGEON KEEPER";
+				Char3speech.text = "Think carefully, names can be deceiving.";
                 nextButton.SetActive(false);
                 allowSpace = false;
                 NextScene1Button.SetActive(true);
@@ -329,7 +325,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";               
 	   }
-	   
+}
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){

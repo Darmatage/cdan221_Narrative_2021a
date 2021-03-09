@@ -286,7 +286,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: SceneChange2a
         m_Mode: 1
         m_Arguments:
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 195855769}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d047fd544c4a325438d6925320a4d1cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 617014cd13ab7e14d921dfcf69f53185, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   primeInt: 1
@@ -461,14 +461,20 @@ MonoBehaviour:
   Char1speech: {fileID: 1604993592}
   Char2name: {fileID: 1847807957}
   Char2speech: {fileID: 1729244029}
+  Char3name: {fileID: 1564186064}
+  Char3speech: {fileID: 1423098151}
   dialogue: {fileID: 1488408769}
   ArtChar1: {fileID: 1818297103}
   ArtChar2: {fileID: 1408452256}
+  ArtChar3: {fileID: 216566957}
   ArtBG1: {fileID: 666612151}
   Choice1a: {fileID: 1048720497}
   Choice1b: {fileID: 2103079615}
+  Choice2a: {fileID: 0}
+  Choice2b: {fileID: 0}
   NextScene1Button: {fileID: 1044974860}
   NextScene2Button: {fileID: 1690294647}
+  NextScene3Button: {fileID: 111381437}
   nextButton: {fileID: 1058466904}
 --- !u!1 &216566957
 GameObject:
@@ -920,7 +926,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I've never met an ogre.
+  m_Text: Pretty please?
 --- !u!222 &855909326
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1155,7 +1161,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: SceneChange2a
         m_Mode: 1
         m_Arguments:
@@ -1285,7 +1291,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: Choice1aFunct
         m_Mode: 1
         m_Arguments:
@@ -1415,7 +1421,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: talking
         m_Mode: 1
         m_Arguments:
@@ -1904,7 +1910,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -1915,7 +1921,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: That ogre looks scary.
+  m_Text: Spill the beans before I spill your blood, pal!
 --- !u!222 &1505110213
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2162,7 +2168,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: SceneChange2b
         m_Mode: 1
         m_Arguments:
@@ -2600,7 +2606,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195855774}
+      - m_Target: {fileID: 0}
         m_MethodName: Choice1bFunct
         m_Mode: 1
         m_Arguments:
