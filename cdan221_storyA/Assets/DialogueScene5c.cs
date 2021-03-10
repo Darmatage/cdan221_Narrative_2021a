@@ -96,7 +96,7 @@ public class DialogueScene5c : MonoBehaviour
             Char3speech.text = "";
         }
         else if (primeInt == 5)
-        { 
+        {
             Char1name.text = "You";
             Char1speech.text = "What? So you're imprisoned down here?";
             Char2name.text = "";
@@ -158,11 +158,95 @@ public class DialogueScene5c : MonoBehaviour
         else if (primeInt == 100)
         {
             Char1name.text = "";
-            Char1speech.text = "";
+            Char1speech.text = "You release Cheevers from the chains";
             Char2name.text = "";
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+        }
+        else if (primeInt == 101)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Cheevers";
+            Char2speech.text = "Th-Thank you, sir...";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 102)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "For your pathetic naivety!\nAHAHAHAHAHAHAHA!!!";
+            Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 103)
+        {
+            Char1name.text = "";
+            Char1speech.text = "Cheevers locks the chains tightly around your wrists.";
+            Char2name.text = "";
+            Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 104)
+        {
+            Char1name.text = "You";
+            Char1speech.text = "But...you were just a helpless beaver...";
+            Char2name.text = "";
+            Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 105)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Cheevers";
+            Char2speech.text = "Oh, did I say Cheevers the Beaver?\n I meant Cheevers...The Deceiver!\nAHAHAHAHAHAHA!!!";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 106)
+        {
+            Char1name.text = "";
+            Char1speech.text = "Cheevers retrieves a knife from a drawer across the room.";
+            Char2name.text = "";
+            Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 107)
+        {
+            Char1name.text = "You";
+            Char1speech.text = "I knew I shouldn't have trusted you...";
+            Char2name.text = "";
+            Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 108)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Cheevers";
+            Char2speech.text = "Awww. Don't cry now. You'll have the chance to be a little more cautious in the next life!";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 108)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Cheevers";
+            Char2speech.text = "NOW DIE!!!";
+            Char3name.text = "";
+            Char3speech.text = "";
+            nextButton.SetActive(false);
+            allowSpace = false;
+            NextScene1Button.SetActive(true);
         }
 
         //ENCOUNTER AFTER CHOICE #2
@@ -170,55 +254,116 @@ public class DialogueScene5c : MonoBehaviour
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Jester";
-            Char2speech.text = "Make no excuse, I've known your scheme,\nsince I laid eyes on you!";
+            Char2name.text = "Cheevers";
+            Char2speech.text = "No! You can’t do this! I thought you were different!";
+            Char3name.text = "";
+            Char3speech.text = "";
         }
         else if (primeInt == 201)
         {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Jester";
-            Char2speech.text = "But worry not, my dear old friend,\nI will not tell a soul.\nTo this old fool, that boy was cruel,\nI'm glad to see him go!";
+            Char1name.text = "You";
+            Char1speech.text = "Don't make this difficult.";
+            Char2name.text = "";
+            Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
         }
         else if (primeInt == 202)
         {
-            Char1name.text = "You";
-            Char1speech.text = "So you won't tell the guards?";
+            ArtChar2.SetActive(false);
+            Char1name.text = "";
+            Char1speech.text = "With a single punch, you knock Cheevers out cold.\nA bell rings out in the room.";
             Char2name.text = "";
             Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
         }
         else if (primeInt == 203)
         {
+            ArtChar3.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Jester";
-            Char2speech.text = "I saw no thing and heard no thing,\nthere's nothing here to tell.\nSo use this time, start your decline,\nand all shall go quite well!";
+            Char2name.text = "";
+            Char2speech.text = "";
+            Char3name.text = "Keeper";
+            Char3speech.text = "Wow, you knocked out that helpless beaver without a shred of mercy! I like your ruthlessness!";
         }
         else if (primeInt == 204)
         {
             Char1name.text = "You";
-            Char1speech.text = "You're right, I should get going.\nThank you.";
+            Char1speech.text = "Where's my prize?";
             Char2name.text = "";
             Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
         }
         else if (primeInt == 205)
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Jester";
-            Char2speech.text = "If ever you need help from me,\nfeel free to give a shout.\nWithin this castle's twisting halls,\nI'll always be about!";
+            Char2name.text = "";
+            Char2speech.text = "";
+            Char3name.text = "Keeper";
+            Char3speech.text = "Not one for conversation, huh? Fine, fine. Here you go.";
         }
         else if (primeInt == 206)
         {
             Char1name.text = "";
-            Char1speech.text = "The jester cackles as you run out of the room.\nWhere do you go?";
+            Char1speech.text = "The dungeon keeper hands over the golden chalice, and your time machine back to the future.";
             Char2name.text = "";
             Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 207)
+        {
+            Char1name.text = "";
+            Char1speech.text = "Right as you grab the chalice, you hear the royal guards enter the dungeon.";
+            Char2name.text = "";
+            Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 208)
+        {
+            ArtChar3.SetActive(false);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Guard";
+            Char2speech.text = "The prince has been killed! Place the castle on lockdown immediately!";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 209)
+        {
+            ArtChar3.SetActive(false);
+            Char1name.text = "You";
+            Char1speech.text = "Alright, time to go!";
+            Char2name.text = "";
+            Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 210)
+        {
+            Char1name.text = "";
+            Char1speech.text = "You press the gems adorning the outside of the chalice in a specific sequence and a white light glows from the chalice. It grows brighter and fills the room, blinding the guards.";
+            Char2name.text = "";
+            Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
+        }
+        else if (primeInt == 211)
+        {
+            Char1name.text = "";
+            Char1speech.text = "It grows brighter and brighter, until...";
+            Char2name.text = "";
+            Char2speech.text = "";
+            Char3name.text = "";
+            Char3speech.text = "";
             nextButton.SetActive(false);
             allowSpace = false;
-            NextScene1Button.SetActive(true);
             NextScene2Button.SetActive(true);
-            NextScene3Button.SetActive(true);
         }
     }
 
