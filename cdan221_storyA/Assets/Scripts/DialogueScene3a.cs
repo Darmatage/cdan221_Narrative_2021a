@@ -357,12 +357,12 @@ public class DialogueScene3a : MonoBehaviour
         allowSpace = true;
     }
 
-    public void SceneChange2a()
+    public void SceneChangeGAMEOVER()
     {
-        SceneManager.LoadScene("Scene2a");
+        SceneManager.LoadScene("Scene1a");
     }
-    public void SceneChange2b()
+    public void SceneChange2c()
     {
-        SceneManager.LoadScene("Scene2b");
+        SceneManager.LoadScene("Scene2c");
     }
 }
