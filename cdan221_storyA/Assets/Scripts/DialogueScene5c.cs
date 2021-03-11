@@ -14,10 +14,13 @@ public class DialogueScene5c : MonoBehaviour
     public Text Char2speech;
     public Text Char3name;
     public Text Char3speech;
+    public Text Char4name;
+    public Text Char4speech;
     public GameObject dialogue;
     public GameObject ArtChar1;
     public GameObject ArtChar2;
     public GameObject ArtChar3;
+    public GameObject ArtChar4;
     public GameObject ArtBG1;
     public GameObject Choice1a;
     public GameObject Choice1b;
@@ -35,6 +38,7 @@ public class DialogueScene5c : MonoBehaviour
         ArtChar1.SetActive(false);
         ArtChar2.SetActive(false);
         ArtChar3.SetActive(false);
+        ArtChar4.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -72,6 +76,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "Keeper";
             Char3speech.text = "Alright, your opponent is already in the ring.\nKnock 'em dead.";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 3)
         {
@@ -83,6 +89,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
             //gameHandler.AddPlayerStat(1);
         }
         else if (primeInt == 4)
@@ -94,6 +102,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "Hey! Over here!\nPlease help me!\nThey chained me up in this dungeon!";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 5)
         {
@@ -103,6 +113,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 6)
         {
@@ -112,6 +124,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "Yeah, I'm just a little beaver! Cheevers the Beaver! I need to get back to my beaver family! They've been making me fight in their bloodbaths for months!";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 7)
         {
@@ -121,6 +135,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 8)
         {
@@ -130,6 +146,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "The gold chalice, right? You're fighting for that?\nI know a way to get that without winning the competition!";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 9)
         {
@@ -139,6 +157,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "If you unlock these chains with that key across the room I can crawl through the ducts and get it for you!\nSo how 'bout it?";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 10)
         {
@@ -148,6 +168,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
             // Turn off "Next" button, turn on "Choice" buttons
             nextButton.SetActive(false);
             allowSpace = false;
@@ -163,6 +185,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 101)
         {
@@ -172,6 +196,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "Th-Thank you, sir...";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 102)
         {
@@ -181,6 +207,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 103)
         {
@@ -190,6 +218,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 104)
         {
@@ -199,6 +229,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 105)
         {
@@ -208,6 +240,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "Oh, did I say Cheevers the Beaver?\n I meant Cheevers...The Deceiver!\nAHAHAHAHAHAHA!!!";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 106)
         {
@@ -217,6 +251,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 107)
         {
@@ -226,6 +262,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 108)
         {
@@ -235,6 +273,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "Awww. Don't cry now. You'll have the chance to be a little more cautious in the next life!";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 108)
         {
@@ -244,6 +284,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "NOW DIE!!!";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene1Button.SetActive(true);
@@ -258,6 +300,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "No! You can’t do this! I thought you were different!";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 201)
         {
@@ -267,6 +311,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 202)
         {
@@ -277,6 +323,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 203)
         {
@@ -287,6 +335,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "Keeper";
             Char3speech.text = "Wow, you knocked out that helpless beaver without a shred of mercy! I like your ruthlessness!";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 204)
         {
@@ -296,6 +346,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 205)
         {
@@ -305,6 +357,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "Keeper";
             Char3speech.text = "Not one for conversation, huh? Fine, fine. Here you go.";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 206)
         {
@@ -314,6 +368,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 207)
         {
@@ -323,26 +379,32 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 208)
         {
             ArtChar3.SetActive(false);
+            ArtChar4.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Guard";
-            Char2speech.text = "The prince has been killed! Place the castle on lockdown immediately!";
+            Char2name.text = "";
+            Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "Guard";
+            Char4speech.text = "The prince has been killed! Place the castle on lockdown immediately!";
         }
         else if (primeInt == 209)
         {
-            ArtChar3.SetActive(false);
             Char1name.text = "You";
             Char1speech.text = "Alright, time to go!";
             Char2name.text = "";
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 210)
         {
@@ -352,6 +414,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
         }
         else if (primeInt == 211)
         {
@@ -361,6 +425,8 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            Char4name.text = "";
+            Char4speech.text = "";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene2Button.SetActive(true);
@@ -376,6 +442,8 @@ public class DialogueScene5c : MonoBehaviour
         Char2speech.text = "";
         Char3name.text = "";
         Char3speech.text = "";
+        Char4name.text = "";
+        Char4speech.text = "";
         primeInt = 99;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -390,6 +458,8 @@ public class DialogueScene5c : MonoBehaviour
         Char2speech.text = "";
         Char3name.text = "";
         Char3speech.text = "";
+        Char4name.text = "";
+        Char4speech.text = "";
         primeInt = 199;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
