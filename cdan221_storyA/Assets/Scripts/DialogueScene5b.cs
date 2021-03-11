@@ -116,7 +116,7 @@ public class DialogueScene5b : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "KEEPER";
-            Char2speech.text = "Heh, sure kid. Once Stewie has had his way with you, you’ll be nothing more than a faint memory. \nGood luck, and remember, only one person is leaving this arena alive.";
+            Char2speech.text = "Heh, sure kid. Once Stewie has had his way with you, you’ll be nothing more than a faint memory. Good luck. Only one person is leaving this arena alive.";
             Char3name.text = "";
             Char3speech.text = "";
             nextButton.SetActive(false);
