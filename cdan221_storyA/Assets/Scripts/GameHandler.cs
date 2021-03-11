@@ -7,7 +7,8 @@ using UnityEngine.Audio;
 
 public class GameHandler : MonoBehaviour{
 
-        public static int playerStat;
+    public static int playerStat;
+
         //public GameObject textGameObject;
 		
 		
