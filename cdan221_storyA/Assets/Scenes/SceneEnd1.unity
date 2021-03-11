@@ -716,7 +716,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 06331029a71bf475dabb28ae7710a941, type: 3}
-    m_FontSize: 105
+    m_FontSize: 91
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -727,7 +727,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RESTART
+  m_Text: MAIN MENU
 --- !u!222 &864258439
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -794,7 +794,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 06331029a71bf475dabb28ae7710a941, type: 3}
-    m_FontSize: 105
+    m_FontSize: 91
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -987,7 +987,7 @@ GameObject:
   - component: {fileID: 1820409418}
   - component: {fileID: 1820409417}
   m_Layer: 5
-  m_Name: ButtonRestart
+  m_Name: ButtonMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
