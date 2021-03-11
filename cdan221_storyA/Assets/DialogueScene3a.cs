@@ -169,7 +169,7 @@ public class DialogueScene3a : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Ratthew";
-            Char2speech.text = "C’mon m’boy! Hop up on yer wheel and get to runnin’! We got at least five hundred pounds of coal to get through before the day’s done!";
+            Char2speech.text = "C’mon m’boy! Hop up on yer wheel and get to runnin’! We got at least five hundred pounds of coal to burn through before the day’s done!";
             Char3name.text = "";
             Char3speech.text = "";
             nextButton.SetActive(false);
@@ -289,7 +289,7 @@ public class DialogueScene3a : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Ratthew";
-            Char2speech.text = "C’mon m’boy! Hop up on yer wheel and get to runnin’! We got at least five hundred pounds of coal to get through before the day’s done!";
+            Char2speech.text = "C’mon m’boy! Hop up on yer wheel and get to runnin’! We got at least five hundred pounds of coal to burn through before the day’s done!";
             Char3name.text = "";
             Char3speech.text = "";
             nextButton.SetActive(false);
