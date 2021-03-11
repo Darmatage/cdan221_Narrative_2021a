@@ -194,7 +194,7 @@ public class DialogueScene2a : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "WYLIE";
-            Char2speech.text = "Oh yeah! I should just make my Gunther do this for me!";
+            Char2speech.text = "Oh yeah! I should just make Gunther do this for me!";
             //Char3name.text = "";
             //Char3speech.text = "";
         }
