@@ -359,7 +359,7 @@ public class DialogueScene3a : MonoBehaviour
 
     public void SceneChangeGAMEOVER()
     {
-        SceneManager.LoadScene("Scene1a");
+        SceneManager.LoadScene("SceneEnd1");
     }
     public void SceneChange2c()
     {

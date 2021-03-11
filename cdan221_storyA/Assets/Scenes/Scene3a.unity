@@ -344,7 +344,7 @@ MonoBehaviour:
   Choice1c: {fileID: 2100980605}
   Choice1d: {fileID: 1741739986}
   NextScene1Button: {fileID: 1044974860}
-  NextScene2Button: {fileID: 0}
+  NextScene2Button: {fileID: 260862129}
   nextButton: {fileID: 1058466904}
 --- !u!1 &226145542
 GameObject:
