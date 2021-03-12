@@ -26,7 +26,6 @@ public class DialogueScene5c : MonoBehaviour
     public GameObject Choice1b;
     public GameObject NextScene1Button;
     public GameObject NextScene2Button;
-    public GameObject NextScene3Button;
     public GameObject nextButton;
     //public GameObject gameHandler;
     //public AudioSource audioSource;
@@ -44,7 +43,6 @@ public class DialogueScene5c : MonoBehaviour
         Choice1b.SetActive(false);
         NextScene1Button.SetActive(false);
         NextScene2Button.SetActive(false);
-        NextScene3Button.SetActive(false);
         nextButton.SetActive(true);
     }
 
@@ -203,8 +201,8 @@ public class DialogueScene5c : MonoBehaviour
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "For your pathetic naivety!\nAHAHAHAHAHAHAHA!!!";
-            Char2speech.text = "";
+            Char2name.text = "Cheevers";
+            Char2speech.text = "For your pathetic naivety!\nAHAHAHAHAHAHAHA!!!";
             Char3name.text = "";
             Char3speech.text = "";
             Char4name.text = "";
@@ -276,7 +274,7 @@ public class DialogueScene5c : MonoBehaviour
             Char4name.text = "";
             Char4speech.text = "";
         }
-        else if (primeInt == 108)
+        else if (primeInt == 109)
         {
             Char1name.text = "";
             Char1speech.text = "";
@@ -467,16 +465,12 @@ public class DialogueScene5c : MonoBehaviour
         allowSpace = true;
     }
 
-    public void SceneChange2a()
+    public void SceneChangeGAMEOVER()
     {
-        SceneManager.LoadScene("Scene2a");
+        SceneManager.LoadScene("SceneEnd1");
     }
-    public void SceneChange2b()
+    public void SceneChangeYOUWIN()
     {
         SceneManager.LoadScene("Scene2b");
-    }
-    public void SceneChange2c()
-    {
-        SceneManager.LoadScene("Scene2c");
     }
 }
