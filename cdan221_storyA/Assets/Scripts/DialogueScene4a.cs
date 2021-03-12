@@ -299,7 +299,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "DUNGEON KEEPER";
-				Char3speech.text = "Now, I’ll list three names, you pick who you wanna go up against and I’ll send you to the right arena where you’ll wait for your opponent to show.";
+				Char3speech.text = "Now, I’ll list three names, you pick who you wanna go up against and I’ll guide you to the right arena where you’ll wait for your opponent to show.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
