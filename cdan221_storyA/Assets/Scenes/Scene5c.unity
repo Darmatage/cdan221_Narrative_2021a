@@ -549,7 +549,6 @@ MonoBehaviour:
   Choice1b: {fileID: 949007029}
   NextScene1Button: {fileID: 1170124932}
   NextScene2Button: {fileID: 2130203679}
-  NextScene3Button: {fileID: 173843344}
   nextButton: {fileID: 454279414}
 --- !u!1 &454279414
 GameObject:
@@ -789,7 +788,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 283, y: -0}
+  m_AnchoredPosition: {x: -328, y: -0}
   m_SizeDelta: {x: 800, y: 650}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &599697719
@@ -863,7 +862,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390.00003, y: 0}
+  m_AnchoredPosition: {x: 335.99997, y: 0}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &603607016
@@ -1235,7 +1234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 283, y: -9.999996}
+  m_AnchoredPosition: {x: -340, y: -9.999996}
   m_SizeDelta: {x: 700, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &893222376
@@ -1696,7 +1695,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 335365666}
-        m_MethodName: SceneChange2a
+        m_MethodName: SceneChangeGAMEOVER
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2167,7 +2166,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 336, y: -0}
+  m_AnchoredPosition: {x: -340, y: 0}
   m_SizeDelta: {x: 600, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1598099380
@@ -2841,7 +2840,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 335365666}
-        m_MethodName: SceneChange2b
+        m_MethodName: SceneChangeYOUWIN
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
