@@ -65,7 +65,7 @@ public class DialogueScene1a : MonoBehaviour
             ArtChar1.SetActive(true);
             dialogue.SetActive(true);
             Char1name.text = "You";
-            Char1speech.text = "I've got to get out of here, someone could walk in at any minute.";
+            Char1speech.text = "I've got to get out of here first, someone could walk in at any minute.";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -91,13 +91,69 @@ public class DialogueScene1a : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "Jester";
             Char2speech.text = "Oh no, my stars! The prince has passed.\nWhat ever shall we do?";
-            // Turn off "Next" button, turn on "Choice" buttons
+        }
+        else if (primeInt == 6)
+        {
+            Char1name.text = "You";
+            Char1speech.text = "I-I can explain...\nHe w-was like this when I walked in the room.\nI don't know who did this...";
+            Char2name.text = "";
+            Char2speech.text = "";
+        }
+        else if (primeInt == 7)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Jester";
+            Char2speech.text = "Make no excuse, I've known your scheme,\nsince I laid eyes on you!";
+        }
+        else if (primeInt == 8)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Jester";
+            Char2speech.text = "But worry not, my dear old friend,\nI will not tell a soul.\nTo this old fool, that boy was cruel,\nI'm glad to see him go!";
+        }
+        else if (primeInt == 9)
+        {
+            Char1name.text = "You";
+            Char1speech.text = "So you won't tell the guards?";
+            Char2name.text = "";
+            Char2speech.text = "";
+        }
+        else if (primeInt == 10)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Jester";
+            Char2speech.text = "I saw no thing and heard no thing,\nthere's nothing here to tell.\nSo use this time, start your decline,\nand all shall go quite well!";
+        }
+        else if (primeInt == 11)
+        {
+            Char1name.text = "You";
+            Char1speech.text = "You're right, I should get going.\nThank you.";
+            Char2name.text = "";
+            Char2speech.text = "";
+        }
+        else if (primeInt == 12)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Jester";
+            Char2speech.text = "If ever you need help from me,\nfeel free to give a shout.\nWithin this castle's twisting halls,\nI'll always be about!";
+        }
+        else if (primeInt == 13)
+        {
+            ArtChar2.SetActive(false);
+            Char1name.text = "";
+            Char1speech.text = "The jester cackles as you run out of the room.\nWhere do you go?";
+            Char2name.text = "";
+            Char2speech.text = "";
             nextButton.SetActive(false);
             allowSpace = false;
-            Choice1a.SetActive(true); // function Choice1aFunct()
-            Choice1b.SetActive(true); // function Choice1bFunct()
+            NextScene1Button.SetActive(true);
+            NextScene2Button.SetActive(true);
+            NextScene3Button.SetActive(true);
         }
-      
         // ENCOUNTER AFTER CHOICE #1
         else if (primeInt == 100)
         {
