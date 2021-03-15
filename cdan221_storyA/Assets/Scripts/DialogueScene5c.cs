@@ -16,11 +16,14 @@ public class DialogueScene5c : MonoBehaviour
     public Text Char3speech;
     public Text Char4name;
     public Text Char4speech;
+    public Text Char5name;
+    public Text Char5speech;
     public GameObject dialogue;
     public GameObject ArtChar1;
     public GameObject ArtChar2;
     public GameObject ArtChar3;
     public GameObject ArtChar4;
+    public GameObject ArtChar5;
     public GameObject ArtBG1;
     public GameObject Choice1a;
     public GameObject Choice1b;
@@ -38,6 +41,7 @@ public class DialogueScene5c : MonoBehaviour
         ArtChar2.SetActive(false);
         ArtChar3.SetActive(false);
         ArtChar4.SetActive(false);
+        ArtChar5.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -199,6 +203,8 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 102)
         {
+            ArtChar2.SetActive(false);
+            ArtChar5.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Cheevers";
@@ -235,7 +241,7 @@ public class DialogueScene5c : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Cheevers";
-            Char2speech.text = "Oh, did I say Cheevers the Beaver?\n I meant Cheevers...The Deceiver!\nAHAHAHAHAHAHA!!!";
+            Char2speech.text = "Oh, did I say Cheevers the Beaver?\nI meant Cheevers...The Deceiver!\nAHAHAHAHAHAHA!!!";
             Char3name.text = "";
             Char3speech.text = "";
             Char4name.text = "";
