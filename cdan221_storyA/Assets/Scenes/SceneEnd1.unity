@@ -1157,9 +1157,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 06331029a71bf475dabb28ae7710a941, type: 3}
+    m_FontSize: 50
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 300
@@ -1169,11 +1169,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "After the death of Prince Gunther, the throne would be handed down to
-    Princess Wylie in the wake of her father. An era of peace and prosperity would
-    soon follow. Though you would never live to see it. The very same person who
-    saved the world would never get to experience it\u2019s warmth. What a sad twist
-    of fate, hee hee hee....\r\n"
+  m_Text: The future refused to change, and Prince Gunther's cruel reign still coninues
+    on...
 --- !u!222 &1599515887
 CanvasRenderer:
   m_ObjectHideFlags: 0

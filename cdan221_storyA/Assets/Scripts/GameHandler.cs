@@ -82,7 +82,7 @@ SceneManager.LoadScene ("MainMenu");
         //        scoreTemp.text = "Score: " + score; }
 
         public void StartGame(){
-                SceneManager.LoadScene("Scene1a");
+                SceneManager.LoadScene("SceneIntro");
         }
 
         public void QuitGame(){
