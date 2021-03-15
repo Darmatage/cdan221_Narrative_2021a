@@ -490,16 +490,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.89793456, g: 0.9433962, b: 0.33374867, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.91476214, b: 0.7783019, a: 1}
-    m_PressedColor: {r: 0.9493281, g: 1, b: 0.042452812, a: 1}
+    m_NormalColor: {r: 1, g: 0.85490197, b: 0.42745098, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.6117647, b: 0.37254903, a: 1}
+    m_PressedColor: {r: 1, g: 0.92941177, b: 0.8627451, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -706,8 +706,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 71}
-  m_SizeDelta: {x: 700, y: 150}
+  m_AnchoredPosition: {x: 0, y: 62}
+  m_SizeDelta: {x: 700, y: 101}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1689295661
 MonoBehaviour:
@@ -729,8 +729,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_Font: {fileID: 12800000, guid: 06331029a71bf475dabb28ae7710a941, type: 3}
+    m_FontSize: 37
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
@@ -741,7 +741,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welcome stranger
+  m_Text: "\rKill a smelly kid to save the world from an unacceptable future. \n"
 --- !u!222 &1689295662
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -785,7 +785,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 250}
-  m_SizeDelta: {x: 700, y: 150}
+  m_SizeDelta: {x: 860.93, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1827595218
 MonoBehaviour:
@@ -807,12 +807,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_Font: {fileID: 12800000, guid: 06331029a71bf475dabb28ae7710a941, type: 3}
+    m_FontSize: 111
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 6
-    m_MaxSize: 80
+    m_MaxSize: 111
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -950,7 +950,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -182, y: -220}
+  m_AnchoredPosition: {x: -187, y: -220}
   m_SizeDelta: {x: 250, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2143722607
@@ -966,16 +966,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.89793456, g: 0.9433962, b: 0.33374867, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.91476214, b: 0.7783019, a: 1}
-    m_PressedColor: {r: 0.9493281, g: 1, b: 0.042452812, a: 1}
+    m_NormalColor: {r: 1, g: 0.85490197, b: 0.42745098, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.6117647, b: 0.37254903, a: 1}
+    m_PressedColor: {r: 1, g: 0.92941177, b: 0.8627451, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
