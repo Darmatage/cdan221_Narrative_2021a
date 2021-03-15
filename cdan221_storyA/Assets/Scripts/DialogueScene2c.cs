@@ -76,7 +76,7 @@ public void talking(){         // main story function. Players hit next to progr
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
-                Char1speech.text = "Jeez, what is this place?\n It reeks of vinegar!";
+                Char1speech.text = "Jeez, what is this place?\nIt reeks of vinegar!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 //gameHandler.AddPlayerStat(1);
@@ -96,7 +96,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
-                Char2speech.text = "Ah! Hello, and welcome to Agatha’s kitchen!\n Are you the new vinegar boy?";
+                Char2speech.text = "Ah! Hello, and welcome to Agatha’s kitchen!\nAre you the new vinegar boy?";
         }
        else if (primeInt == 6){
                 Char1name.text = "YOU";
@@ -149,6 +149,7 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
 		}
 		else if (primeInt == 104){
+				ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "So, this is a vinegar station, huh?";
                 Char2name.text = "";
@@ -195,7 +196,7 @@ public void talking(){         // main story function. Players hit next to progr
 		}
 		else if (primeInt == 109){
                 Char1name.text = "YOU";
-                Char1speech.text = "The thought of what could be kept in that barrel is hauntng.\n Is that what I'm supposed to use to make Agatha her vinegar?";
+                Char1speech.text = "The thought of what could be kept in that barrel is hauntng.\nIs that what I'm supposed to use to make Agatha her vinegar?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 nextButton.SetActive(true);
@@ -255,7 +256,7 @@ public void talking(){         // main story function. Players hit next to progr
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "YOU";
-                Char1speech.text = "WHAT THE HELL!";
+                Char1speech.text = "WHAT?!";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -283,7 +284,7 @@ public void talking(){         // main story function. Players hit next to progr
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "YOU";
-                Char1speech.text = "Uhhhhh uhhh um...\n That barrel over there! That looks as good a spot as any!";
+                Char1speech.text = "Uhhhhh uhhh um...\nThat barrel over there! That looks as good a spot as any!";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -296,7 +297,7 @@ public void talking(){         // main story function. Players hit next to progr
 		        ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(false);
-				ArtBG1.SetActive(false);
+				ArtBG1.SetActive(true);
 		        ArtBG2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -355,7 +356,7 @@ public void talking(){         // main story function. Players hit next to progr
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
-                Char1speech.text = "Oh-\n Oh no!";
+                Char1speech.text = "Oh-\nOh no!";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -369,7 +370,7 @@ public void talking(){         // main story function. Players hit next to progr
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
-                Char1speech.text = "Oh-\n Oh no!\n Please open, please!";
+                Char1speech.text = "Oh-\nOh no!\nPlease open, please!";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -399,7 +400,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
-                Char2speech.text = "Ohhhhh vinegar boy!\n Where aaaaaaare youuuu?";
+                Char2speech.text = "Ohhhhh vinegar boy!\nWhere aaaaaaare youuuu?";
 				Char3name.text = "";
 				Char3speech.text = "";
                 nextButton.SetActive(true);

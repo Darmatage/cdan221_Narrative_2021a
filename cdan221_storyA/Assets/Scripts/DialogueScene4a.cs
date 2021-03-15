@@ -72,7 +72,7 @@ public void talking(){         // main story function. Players hit next to progr
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
-                Char1speech.text = "Finally, the dungeon!\n Can’t believe how much of a relief it is to be down in this musty cave.";
+                Char1speech.text = "Finally, the dungeon!\nCan’t believe how much of a relief it is to be down in this musty cave.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 //gameHandler.AddPlayerStat(1);
@@ -159,7 +159,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "DUNGEON KEEPER";
-				Char3speech.text = "What’s this about my chalice?\n You want to get your grubby little hands on it?";
+				Char3speech.text = "What’s this about my chalice?\nYou want to get your grubby little hands on it?";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -215,7 +215,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "DUNGEON KEEPER";
-				Char3speech.text = "I'll tell ya what.\n Tonight we’re holding the annual prison bloodbath.";
+				Char3speech.text = "I'll tell ya what.\nTonight we’re holding the annual prison bloodbath.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -229,7 +229,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "DUNGEON KEEPER";
-				Char3speech.text = "I'll tell ya what.\n Tonight we’re holding the annual prison bloodbath.\n Two people enter, only one leaves.";
+				Char3speech.text = "I'll tell ya what.\nTonight we’re holding the annual prison bloodbath.\nTwo people enter, only one leaves.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -257,7 +257,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "DUNGEON KEEPER";
-				Char3speech.text = "You want your chalice, win against just one of the contenders.\n This little chalice is nothing compared to the grand prize, so just one win should suffice.";
+				Char3speech.text = "You want your chalice, win against just one of the contenders.\nThis little chalice is nothing compared to the grand prize, so just one win should suffice.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);

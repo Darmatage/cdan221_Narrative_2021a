@@ -163,7 +163,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
-                Char2speech.text = "MOST ogres you’ve met? So what, we’re all the same? \nWell, I bet most ogres out there would have probably eaten you alive by now, wouldn’t they?";
+                Char2speech.text = "MOST ogres you’ve met? So what, we’re all the same?\nWell, I bet most ogres out there would have probably eaten you alive by now, wouldn’t they?";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -206,7 +206,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
-                Char2speech.text = "Oh, just down this hatch my friend!\n I have to warn you though, it’s pretty spooky down there.";
+                Char2speech.text = "Oh, just down this hatch my friend!\nI have to warn you though, it’s pretty spooky down there.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -224,7 +224,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
-                Char2speech.text = "They got the whole set-up going on.\n We’re talking giant rats, skeletons hanging from shackles, eternal screaming of those who made an enemy of the king.";
+                Char2speech.text = "They got the whole set-up going on.\nWe’re talking giant rats, skeletons hanging from shackles, eternal screaming of those who made an enemy of the king.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
@@ -240,7 +240,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 		else if (primeInt == 206){
                 Char1name.text = "YOU";
-                Char1speech.text = "Uh-huh….. Okay, thanks for the tip.\n Guess I’ll be on my way. Don’t wanna keep those rats waiting!";
+                Char1speech.text = "Uh-huh….. Okay, thanks for the tip.\nGuess I’ll be on my way. Don’t wanna keep those rats waiting!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 nextButton.SetActive(true);
