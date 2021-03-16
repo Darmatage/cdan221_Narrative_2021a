@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
-public class DialogueScene1 : MonoBehaviour {
+public class DialogueScene3b : MonoBehaviour {
         public int primeInt = 1; // This integer drives game progress!
         public Text Char1name;
         public Text Char1speech;
@@ -63,7 +63,7 @@ public void talking(){         // main story function. Players hit next to progr
 				ArtChar1.SetActive(true);
 			    ArtChar2.SetActive(false);
                 Char1name.text = "GUARD 1";
-                Char1speech.text = "I still can’t believe how heavy this barrel is! I mean, couldn’t we have at least seen what was in it before hauling it to the docks? \n What if it’s just full of something useless like bricks! And that rancid smell! It’s like there’s a family of dead skunks in here!";
+                Char1speech.text = "What if it’s just full of something useless like bricks! And that rancid smell! It’s like there’s a family of dead skunks in here!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -81,7 +81,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "GUARD 2";
-                Char2speech.text = "I dunno Rowan, I wouldn’t question the king and queen. \n They were very clear, “Get rid of any and all barrels! Our boy used to love counting them, and now he’s gone!” Blah blah blah!";
+                Char2speech.text = "They were very clear, “Get rid of any and all barrels! Our boy used to love counting them, and now he’s gone!” Blah blah blah!";
         }
        else if (primeInt == 6){
                 ArtChar1.SetActive(true);
@@ -95,7 +95,7 @@ public void talking(){         // main story function. Players hit next to progr
                 ArtChar1.SetActive(true);
 			    ArtChar2.SetActive(false);
 				Char1name.text = "ROWAN";
-                Char1speech.text = "Well Peter, no disrespect to the late prince, but I mean, he liked barrels so now we have to get rid of all them? Where’s the logic in that? \n What kind of kid did the king raise if his favorite thing in life was counting bloody barrels?";
+                Char1speech.text = "What kind of kid did the king raise if his favorite thing in life was counting bloody barrels?";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -105,7 +105,7 @@ public void talking(){         // main story function. Players hit next to progr
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "PETER";
-                Char2speech.text = "I feel you. It’s definitely an odd request. But I’m not trying to get on their bad side right now.";
+                Char2speech.text = "I feel you. It’s definitely an odd request... But I’m not trying to get on their bad side right now.";
         }
 		 else if (primeInt == 9){
                 ArtChar1.SetActive(false);
@@ -113,7 +113,7 @@ public void talking(){         // main story function. Players hit next to progr
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "PETER";
-                Char2speech.text = "I feel you. It’s definitely an odd request. But I’m not trying to get on their bad side right now. \n It’s been 2 weeks now, and still, no trace of the poor prince’s murderer. I’m sure the king will jump at any opportunity to bring anyone who gives him any lip straight to the gallows.";
+                Char2speech.text = "It’s been 2 weeks now, and still, no trace of the poor prince’s murderer. I’m sure the king will jump at any opportunity to bring anyone who gives him any lip straight to the gallows.";
         }
 		else if (primeInt == 10){
                 ArtChar1.SetActive(true);
@@ -127,7 +127,7 @@ public void talking(){         // main story function. Players hit next to progr
                 ArtChar1.SetActive(true);
 			    ArtChar2.SetActive(false);
 				Char1name.text = "ROWAN";
-                Char1speech.text = "Bah! This is rediculous. I'm not lugging around this barrel any longer! \n I mean, what the hell was Agatha cooking with? Ogre tusks?! I’d rather take my luck hunting down that dirty murderer than move this thing another inch!";
+                Char1speech.text = "I mean, what the hell was Agatha cooking with? Ogre tusks?! I’d rather take my luck hunting down that dirty murderer than move this thing another inch!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -245,7 +245,9 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(true); // function Choice1aFunct()				
 		}		
 		
+		
 }
+
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
                 Char1name.text = "ROWAN";
@@ -271,7 +273,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange2a(){
-               SceneManager.LoadScene("SceneEnd");
+               SceneManager.LoadScene("SceneLose");
         }
         public void SceneChange2b(){
                 SceneManager.LoadScene("Scene2b");
