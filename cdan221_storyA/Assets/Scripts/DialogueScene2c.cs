@@ -82,7 +82,7 @@ public void talking(){         // main story function. Players hit next to progr
                 //gameHandler.AddPlayerStat(1);
         }
 		else if (primeInt == 4){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(true);
 				ArtChar3.SetActive(false);
                 Char1name.text = "";
@@ -91,7 +91,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "Ah! Hello, and welcome to Agatha’s kitchen!";
         }
        else if (primeInt == 5){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -99,6 +99,9 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "Ah! Hello, and welcome to Agatha’s kitchen!\nAre you the new vinegar boy?";
         }
        else if (primeInt == 6){
+		   ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -112,6 +115,8 @@ public void talking(){         // main story function. Players hit next to progr
 	    }
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
+		   ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
@@ -122,6 +127,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene2Button.SetActive(false);			
         }
        else if (primeInt == 101){
+		   ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
@@ -131,6 +138,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 102){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
@@ -140,6 +149,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
 		}
 		else if (primeInt == 103){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
@@ -149,7 +160,9 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
 		}
 		else if (primeInt == 104){
-				ArtChar2.SetActive(false);
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "So, this is a vinegar station, huh?";
                 Char2name.text = "";
@@ -159,6 +172,9 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
 		}
 		else if (primeInt == 105){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "So, this is a vinegar station, huh?\nLooks like some kind of meat grinder that produces a liquid?";
                 Char2name.text = "";
@@ -168,6 +184,9 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
 		}
 		else if (primeInt == 106){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "So, this is a vinegar station, huh?\nLooks like some kind of meat grinder that produces a liquid?\nWhat the hell is going on here?";
                 Char2name.text = "";
@@ -177,6 +196,9 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
 		}
 		else if (primeInt == 107){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "That barrel.... it says 'for grinding'?";
                 Char2name.text = "";
@@ -186,6 +208,9 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
 		}
 		else if (primeInt == 108){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "The thought of what could be kept in that barrel is hauntng.";
                 Char2name.text = "";
@@ -195,6 +220,9 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
 		}
 		else if (primeInt == 109){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "The thought of what could be kept in that barrel is hauntng.\nIs that what I'm supposed to use to make Agatha her vinegar?";
                 Char2name.text = "";
@@ -204,6 +232,9 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
 		}
 		else if (primeInt == 110){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "I feel if I stay here long enough, Agatha will surely be the end of me.";
                 Char2name.text = "";
@@ -213,6 +244,9 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
 		}
 		else if (primeInt == 111){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "I could always book it outta here and hop down that trash chute Agatha is scraping the left-over food into…";
                 Char2name.text = "";
@@ -238,7 +272,7 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 301){
-		        ArtChar1.SetActive(true);
+		        ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "";
@@ -254,7 +288,7 @@ public void talking(){         // main story function. Players hit next to progr
 		else if (primeInt == 302){
 		        ArtChar1.SetActive(true);
 			    ArtChar2.SetActive(false);
-				ArtChar3.SetActive(true);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "WHAT?!";
                 Char2name.text = "";
@@ -268,7 +302,7 @@ public void talking(){         // main story function. Players hit next to progr
 		else if (primeInt == 303){
 		        ArtChar1.SetActive(true);
 			    ArtChar2.SetActive(false);
-				ArtChar3.SetActive(true);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "Uhhhhh uhhh um...";
                 Char2name.text = "";
@@ -282,7 +316,7 @@ public void talking(){         // main story function. Players hit next to progr
 		else if (primeInt == 304){
 		        ArtChar1.SetActive(true);
 			    ArtChar2.SetActive(false);
-				ArtChar3.SetActive(true);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "Uhhhhh uhhh um...\nThat barrel over there! That looks as good a spot as any!";
                 Char2name.text = "";
@@ -380,7 +414,7 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 311){
-		        ArtChar1.SetActive(true);
+		        ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(true);
 				ArtChar3.SetActive(false);
                 Char1name.text = "";
@@ -394,7 +428,7 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 312){
-		        ArtChar1.SetActive(true);
+		        ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(true);
 				ArtChar3.SetActive(false);
                 Char1name.text = "";
@@ -408,7 +442,7 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 313){
-		        ArtChar1.SetActive(true);
+		        ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(true);
 				ArtChar3.SetActive(false);
                 Char1name.text = "";
@@ -423,7 +457,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 		else if (primeInt == 314){
 		        ArtChar1.SetActive(true);
-			    ArtChar2.SetActive(true);
+			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "Well, at least it seems like Agatha won't be able to find me in here.";
@@ -437,7 +471,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 		else if (primeInt == 315){
 		        ArtChar1.SetActive(true);
-			    ArtChar2.SetActive(true);
+			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "But will anyone find and rescue me?";
@@ -451,7 +485,7 @@ public void talking(){         // main story function. Players hit next to progr
 				NextScene2Button.SetActive(true);
         }
        else if (primeInt == 400){
-		        ArtChar1.SetActive(true);
+		        ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(true);
 				ArtChar3.SetActive(false);
                 Char1name.text = "";
@@ -469,6 +503,9 @@ public void talking(){         // main story function. Players hit next to progr
 }
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and #2 and switch scenes)
         public void Choice1aFunct(){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
+				ArtChar3.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
@@ -480,6 +517,9 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
+				ArtChar3.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "AGATHA";
@@ -491,6 +531,9 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
 		public void Choice2aFunct(){
+				ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "So, what mysteries does this little barrel hold for me to discover? I'll just take a quick peek aaannnnn-";
                 Char2name.text = "";
@@ -502,6 +545,9 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice2bFunct(){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "Well, it's now or never! Outta the way Agatha, I'm no vinegar boy!";
                 Char2name.text = "";
