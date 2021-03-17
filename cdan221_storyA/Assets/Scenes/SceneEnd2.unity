@@ -177,7 +177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e4eb71c56468bbc44913938df5567b4a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e8eb02a0d62a1d246aaf577dd17b73ed, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -231,7 +231,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 418.75, y: 0}
+  m_AnchoredPosition: {x: 200, y: 110}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &305904737
@@ -1134,8 +1134,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000040531, y: -261}
-  m_SizeDelta: {x: 1232.292, y: 150}
+  m_AnchoredPosition: {x: 0.0000040531, y: -200.18}
+  m_SizeDelta: {x: 1232.292, y: 300.36517}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1599515886
 MonoBehaviour:
@@ -1169,8 +1169,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The future refused to change, and Prince Gunther's cruel reign still coninues
-    on...
+  m_Text: "Not only have you saved history, but also yourself! Not too shabby! Returning
+    to the current day, all is exactly how you left it. Or so it seems. You can\u2019t
+    help but feel like something is off. But, oh well. All that matters is the great
+    tragedy that Prince Gunther once wrought has been erased from history, and ogres
+    and humans can finally live in harmony. Yes, all is well\u2026.."
 --- !u!222 &1599515887
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1191,7 +1194,7 @@ GameObject:
   - component: {fileID: 1636914588}
   - component: {fileID: 1636914587}
   m_Layer: 5
-  m_Name: GameOver
+  m_Name: YOU WIN!
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1248,7 +1251,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GAME OVER
+  m_Text: YOU WIN!
 --- !u!222 &1636914588
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1293,7 +1296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -418.75, y: 0}
+  m_AnchoredPosition: {x: -200, y: 110}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1820409417

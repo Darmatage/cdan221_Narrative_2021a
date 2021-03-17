@@ -1415,80 +1415,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe4a61b21c3ebc4abc075dc329794a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1178306135
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 181297243769419460, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_Volume
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1508824142759627625, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 545.8032
-      objectReference: {fileID: 0}
-    - target: {fileID: 1508824142759627625, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 303.43744
-      objectReference: {fileID: 0}
-    - target: {fileID: 1508824142759627625, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2733.1692
-      objectReference: {fileID: 0}
-    - target: {fileID: 1508824142759627625, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1508824142759627625, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1508824142759627625, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1508824142759627625, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1508824142759627625, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1508824142759627625, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1508824142759627625, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1508824142759627625, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4511971625032069002, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
-        type: 3}
-      propertyPath: m_Name
-      value: GameMusicManager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9fdc9dabb1339f45ad781fc1c7031ee, type: 3}
 --- !u!1 &1324680805
 GameObject:
   m_ObjectHideFlags: 0
@@ -2339,7 +2265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9201673, g: 0.9245283, b: 0.92122316, a: 1}
+  m_Color: {r: 0.7607843, g: 0.79607844, b: 0.6627451, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2491,7 +2417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.92156863, g: 0.9254902, b: 0.92156863, a: 1}
+  m_Color: {r: 0.7589848, g: 0.7924528, b: 0.66162336, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:

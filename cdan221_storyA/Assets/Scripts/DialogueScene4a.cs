@@ -87,7 +87,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "";
         }
        else if (primeInt == 5){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -95,6 +95,9 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "Who, me? You think I’d just tell you about a GOLDEN chalice if I happened to find one?";
         }
        else if (primeInt == 6){
+		   ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -108,6 +111,8 @@ public void talking(){         // main story function. Players hit next to progr
 	    }
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
+		   ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "PRISONER";
@@ -119,6 +124,8 @@ public void talking(){         // main story function. Players hit next to progr
 				NextScene3Button.SetActive(false);				
         }
        else if (primeInt == 101){
+		   ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "PRISONER";
@@ -128,6 +135,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 102){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "PRISONER";
@@ -137,28 +146,28 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
 		}
 		else if (primeInt == 103){
-		        ArtChar1.SetActive(true);
+		        ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER";
+				Char3name.text = "KEEPER";
 				Char3speech.text = "What’s this about my chalice?";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 104){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER";
+				Char3name.text = "KEEPER";
 				Char3speech.text = "What’s this about my chalice?\nYou want to get your grubby little hands on it?";
                 nextButton.SetActive(true);
                 allowSpace = false;
@@ -167,7 +176,7 @@ public void talking(){         // main story function. Players hit next to progr
 		else if (primeInt == 105){
                 ArtChar1.SetActive(true);
 			    ArtChar2.SetActive(false);
-				ArtChar3.SetActive(true);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "Well, I am the rightful owner of it.";
                 Char2name.text = "";
@@ -179,84 +188,84 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 106){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER";
+				Char3name.text = "KEEPER";
 				Char3speech.text = "Hah, okay little man!";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 107){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER";
+				Char3name.text = "KEEPER";
 				Char3speech.text = "I'll tell ya what.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 108){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER";
+				Char3name.text = "KEEPER";
 				Char3speech.text = "I'll tell ya what.\nTonight we’re holding the annual prison bloodbath.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 109){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER";
+				Char3name.text = "KEEPER";
 				Char3speech.text = "I'll tell ya what.\nTonight we’re holding the annual prison bloodbath.\nTwo people enter, only one leaves.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 110){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER";
+				Char3name.text = "KEEPER";
 				Char3speech.text = "You want your chalice, win against just one of the contenders.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 111){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER";
+				Char3name.text = "KEEPER";
 				Char3speech.text = "You want your chalice, win against just one of the contenders.\nThis little chalice is nothing compared to the grand prize, so just one win should suffice.";
                 nextButton.SetActive(true);
                 allowSpace = false;
@@ -265,7 +274,7 @@ public void talking(){         // main story function. Players hit next to progr
 		else if (primeInt == 112){
                 ArtChar1.SetActive(true);
 			    ArtChar2.SetActive(false);
-				ArtChar3.SetActive(true);
+				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "You've gotta be kidding me...";
                 Char2name.text = "";
@@ -277,42 +286,42 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 113){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER";
+				Char3name.text = "KEEPER";
 				Char3speech.text = "Cry me a boat bub.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 114){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER";
+				Char3name.text = "KEEPER";
 				Char3speech.text = "Now, I’ll list three names, you pick who you wanna go up against and I’ll guide you to the right arena where you’ll wait for your opponent to show.";
                 nextButton.SetActive(true);
                 allowSpace = false;
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 115){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "DUNGEON KEEPER";
+				Char3name.text = "KEEPER";
 				Char3speech.text = "Think carefully, names can be deceiving.";
                 nextButton.SetActive(false);
                 allowSpace = false;
@@ -331,6 +340,8 @@ public void talking(){         // main story function. Players hit next to progr
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
+			  ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "PRISONER";
@@ -342,6 +353,8 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
+			  ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "PRISONER";

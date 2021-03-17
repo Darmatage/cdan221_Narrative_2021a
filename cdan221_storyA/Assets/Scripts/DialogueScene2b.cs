@@ -74,7 +74,7 @@ public void talking(){         // main story function. Players hit next to progr
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
-                ArtChar1.SetActive(true);
+                ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
@@ -82,6 +82,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "Welcome to the courtyard. That was quite a tumble you took, are you okay?";
         }
        else if (primeInt == 5){
+				ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -96,6 +98,8 @@ public void talking(){         // main story function. Players hit next to progr
 		
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
+				ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "Oh, uh, yikes. Sorry, I just got scared and thought-";
                 Char2name.text = "";
@@ -106,6 +110,8 @@ public void talking(){         // main story function. Players hit next to progr
 				NextScene2Button.SetActive(false);
         }
        else if (primeInt == 101){
+		   ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -115,6 +121,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 102){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "Uhhhhhhh......";
                 Char2name.text = "";
@@ -124,6 +132,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
 		}
 		else if (primeInt == 103){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -133,6 +143,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 104){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "N-no I was… it was an honest mistake, really.";
                 Char2name.text = "";
@@ -142,6 +154,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 105){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "N-no I was… it was an honest mistake, really. \nI wasn’t trying to generalize about the ogre race or anything. It’s just most ogres I’ve met-";
                 Char2name.text = "";
@@ -151,6 +165,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 106){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -160,6 +176,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 107){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -169,6 +187,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 108){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "...";
                 Char2name.text = "";
@@ -178,6 +198,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 109){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -188,12 +210,16 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
        else if (primeInt == 200){
+		   ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "I’m trying to find my way to the dungeon, I’ve left an important item behind there and am a bit lost.";
                 Char2name.text = "";
                 Char2speech.text = "";               
         }
        else if (primeInt == 201){
+		   ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -203,6 +229,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 202){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -212,6 +240,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 203){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -221,6 +251,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 204){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -230,6 +262,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 205){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "Uh-huh….. Okay, thanks for the tip.";
                 Char2name.text = "";
@@ -239,6 +273,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 206){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "Uh-huh….. Okay, thanks for the tip.\nGuess I’ll be on my way. Don’t wanna keep those rats waiting!";
                 Char2name.text = "";
@@ -248,6 +284,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 207){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -257,6 +295,8 @@ public void talking(){         // main story function. Players hit next to progr
                 NextScene1Button.SetActive(false);
         }
 		else if (primeInt == 208){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -269,6 +309,8 @@ public void talking(){         // main story function. Players hit next to progr
      }
 	 // ENCOUNTER AFTER CHOICE #2
        else if (primeInt == 300){
+		   ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "Catch you later Stew!";
                 Char2name.text = "";
@@ -279,6 +321,8 @@ public void talking(){         // main story function. Players hit next to progr
         }
 		
 		else if (primeInt == 400){
+			ArtChar1.SetActive(true);
+			    ArtChar2.SetActive(false);
                 Char1name.text = "YOU";
                 Char1speech.text = "You too!";
                 Char2name.text = "";
@@ -290,6 +334,8 @@ public void talking(){         // main story function. Players hit next to progr
 }
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and #2 and switch scenes)
         public void Choice1aFunct(){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -301,6 +347,8 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -312,6 +360,8 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
 		public void Choice2aFunct(){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -323,6 +373,8 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice2bFunct(){
+			ArtChar1.SetActive(false);
+			    ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
@@ -335,7 +387,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange2a(){
-               SceneManager.LoadScene("SceneGAMEOVER");
+               SceneManager.LoadScene("SceneEnd1");
         }
         public void SceneChange2b(){
                 SceneManager.LoadScene("Scene4a");
