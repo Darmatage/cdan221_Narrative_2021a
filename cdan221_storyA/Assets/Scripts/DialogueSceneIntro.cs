@@ -66,13 +66,14 @@ public class DialogueSceneIntro : MonoBehaviour
             dialogue.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Commander";
+            Char2name.text = "COMMANDER";
             Char2speech.text = "Private, what's your status?";
         }
         else if (primeInt == 3)
         {
+            ArtChar2.SetActive(false);
             ArtChar1.SetActive(true);
-            Char1name.text = "You";
+            Char1name.text = "YOU";
             Char1speech.text = "I d-did is commander. I.. I killed him.\nOh god, commander, he was just a boy! I-I killed a child!\nWhat is wrong with me!?!";
             Char2name.text = "";
             Char2speech.text = "";
@@ -80,78 +81,91 @@ public class DialogueSceneIntro : MonoBehaviour
         }
         else if (primeInt == 4)
         {
+            ArtChar1.SetActive(false);
+            ArtChar2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Commander";
+            Char2name.text = "COMMANDER";
             Char2speech.text = "Keep your head on straight, private!\nRemember what's at stake here.\nThat was no innocent kid.";
         }
         else if (primeInt == 5)
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Commander";
+            Char2name.text = "COMMANDER";
             Char2speech.text = "That was Prince Gunther, the same kid that would grow up to be the tyrant that makes our lives a living hell.\nYou understand what I'm saying?";
         }
         else if (primeInt == 6)
         {
-            Char1name.text = "You";
+            ArtChar2.SetActive(false);
+            ArtChar1.SetActive(true);
+            Char1name.text = "YOU";
             Char1speech.text = "Commander...\nI think I'm gonna be sick...";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 7)
         {
+            ArtChar1.SetActive(false);
+            ArtChar2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Commander";
+            Char2name.text = "COMMANDER";
             Char2speech.text = "There's no time to be sick, private!\nYour job's not done yet!\nYou need to get back to our time period in order for the past to change!";
         }
         else if (primeInt == 8)
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Commander";
+            Char2name.text = "COMMANDER";
             Char2speech.text = "Do you remember where you put the time machine?";
         }
         else if (primeInt == 9)
         {
-            Char1name.text = "You";
+            ArtChar2.SetActive(false);
+            ArtChar1.SetActive(true);
+            Char1name.text = "YOU";
             Char1speech.text = "Yeah... It's in the d-dungeon of the castle...";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 10)
         {
+            ArtChar1.SetActive(false);
+            ArtChar2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Commander";
+            Char2name.text = "COMMANDER";
             Char2speech.text = "Well get moving, private!\nOur connection's already starting to break up...\nThe timelines are separ...";
         }
         else if (primeInt == 11)
         {
-            Char1name.text = "Commander";
+            Char1name.text = "COMMANDER";
             Char1speech.text = "You need to get bac...\nOr this will all be for nothi... ";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 12)
         {
-            Char1name.text = "You";
+            ArtChar2.SetActive(false);
+            ArtChar1.SetActive(true);
+            Char1name.text = "YOU";
             Char1speech.text = "C-commander? Are you t-there?";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 13)
         {
+            ArtChar1.SetActive(false);
+            ArtChar2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Commander";
+            Char2name.text = "COMMANDER";
             Char2speech.text = "...";
         }
         else if (primeInt == 14)
         {
-            ArtChar2.SetActive(false);
-            Char1name.text = "You";
+            Char1name.text = "YOU";
             Char1speech.text = "Okay, okay. I just gotta g-get to the dungeon. For the f-future of humanity...";
             Char2name.text = "";
             Char2speech.text = "";

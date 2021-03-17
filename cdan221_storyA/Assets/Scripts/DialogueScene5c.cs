@@ -76,7 +76,7 @@ public class DialogueScene5c : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-            Char3name.text = "Keeper";
+            Char3name.text = "KEEPER";
             Char3speech.text = "Alright, your opponent is already in the ring.\nKnock 'em dead.";
             Char4name.text = "";
             Char4speech.text = "";
@@ -85,7 +85,7 @@ public class DialogueScene5c : MonoBehaviour
         {
             ArtChar3.SetActive(false);
             ArtChar1.SetActive(true);
-            Char1name.text = "You";
+            Char1name.text = "YOU";
             Char1speech.text = "Huh? Where are they?";
             Char2name.text = "";
             Char2speech.text = "";
@@ -97,10 +97,11 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 4)
         {
+            ArtChar1.SetActive(false);
             ArtChar2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Cheevers";
+            Char2name.text = "CHEEVERS";
             Char2speech.text = "Hey! Over here!\nPlease help me!\nThey chained me up in this dungeon!";
             Char3name.text = "";
             Char3speech.text = "";
@@ -109,7 +110,9 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 5)
         {
-            Char1name.text = "You";
+            ArtChar2.SetActive(false);
+            ArtChar1.SetActive(true);
+            Char1name.text = "YOU";
             Char1speech.text = "What? So you're imprisoned down here?";
             Char2name.text = "";
             Char2speech.text = "";
@@ -120,9 +123,11 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 6)
         {
+            ArtChar1.SetActive(false);
+            ArtChar2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Cheevers";
+            Char2name.text = "CHEEVERS";
             Char2speech.text = "Yeah, I'm just a little beaver! Cheevers the Beaver! I need to get back to my beaver family! They've been making me fight in their bloodbaths for months!";
             Char3name.text = "";
             Char3speech.text = "";
@@ -131,7 +136,9 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 7)
         {
-            Char1name.text = "You";
+            ArtChar2.SetActive(false);
+            ArtChar1.SetActive(true);
+            Char1name.text = "YOU";
             Char1speech.text = "Listen, I'm sorry, but I have my own goals here.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -142,9 +149,11 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 8)
         {
+            ArtChar1.SetActive(false);
+            ArtChar2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Cheevers";
+            Char2name.text = "CHEEVERS";
             Char2speech.text = "The gold chalice, right? You're fighting for that?\nI know a way to get that without winning the competition!";
             Char3name.text = "";
             Char3speech.text = "";
@@ -155,7 +164,7 @@ public class DialogueScene5c : MonoBehaviour
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Cheevers";
+            Char2name.text = "CHEEVERS";
             Char2speech.text = "If you unlock these chains with that key across the room I can crawl through the ducts and get it for you!\nSo how 'bout it?";
             Char3name.text = "";
             Char3speech.text = "";
@@ -164,7 +173,9 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 10)
         {
-            Char1name.text = "You";
+            ArtChar2.SetActive(false);
+            ArtChar1.SetActive(true);
+            Char1name.text = "YOU";
             Char1speech.text = "Hold on, give me some time to think...";
             Char2name.text = "";
             Char2speech.text = "";
@@ -181,8 +192,9 @@ public class DialogueScene5c : MonoBehaviour
         // ENCOUNTER AFTER CHOICE #1
         else if (primeInt == 100)
         {
+            ArtChar1.SetActive(false);
             Char1name.text = "";
-            Char1speech.text = "You release Cheevers from the chains";
+            Char1speech.text = "(You release Cheevers from the chains.)";
             Char2name.text = "";
             Char2speech.text = "";
             Char3name.text = "";
@@ -192,9 +204,10 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 101)
         {
+            ArtChar2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Cheevers";
+            Char2name.text = "CHEEVERS";
             Char2speech.text = "Th-Thank you, sir...";
             Char3name.text = "";
             Char3speech.text = "";
@@ -207,7 +220,7 @@ public class DialogueScene5c : MonoBehaviour
             ArtChar5.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Cheevers";
+            Char2name.text = "CHEEVERS";
             Char2speech.text = "For your pathetic naivety!\nAHAHAHAHAHAHAHA!!!";
             Char3name.text = "";
             Char3speech.text = "";
@@ -216,8 +229,9 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 103)
         {
+            ArtChar5.SetActive(false);
             Char1name.text = "";
-            Char1speech.text = "Cheevers locks the chains tightly around your wrists.";
+            Char1speech.text = "(Cheevers locks the chains tightly around your wrists.)";
             Char2name.text = "";
             Char2speech.text = "";
             Char3name.text = "";
@@ -227,7 +241,9 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 104)
         {
-            Char1name.text = "You";
+            ArtChar5.SetActive(false);
+            ArtChar1.SetActive(true);
+            Char1name.text = "YOU";
             Char1speech.text = "But...you were just a helpless beaver...";
             Char2name.text = "";
             Char2speech.text = "";
@@ -238,9 +254,11 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 105)
         {
+            ArtChar1.SetActive(false);
+            ArtChar5.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Cheevers";
+            Char2name.text = "CHEEVERS";
             Char2speech.text = "Oh, did I say Cheevers the Beaver?\nI meant Cheevers...The Deceiver!\nAHAHAHAHAHAHA!!!";
             Char3name.text = "";
             Char3speech.text = "";
@@ -249,8 +267,9 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 106)
         {
+            ArtChar5.SetActive(false);
             Char1name.text = "";
-            Char1speech.text = "Cheevers retrieves a knife from a drawer across the room.";
+            Char1speech.text = "(Cheevers retrieves a knife from a drawer across the room.)";
             Char2name.text = "";
             Char2speech.text = "";
             Char3name.text = "";
@@ -260,7 +279,8 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 107)
         {
-            Char1name.text = "You";
+            ArtChar1.SetActive(true);
+            Char1name.text = "YOU";
             Char1speech.text = "I knew I shouldn't have trusted you...";
             Char2name.text = "";
             Char2speech.text = "";
@@ -271,9 +291,11 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 108)
         {
+            ArtChar1.SetActive(false);
+            ArtChar5.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Cheevers";
+            Char2name.text = "CHEEVERS";
             Char2speech.text = "Awww. Don't cry now. You'll have the chance to be a little more cautious in the next life!";
             Char3name.text = "";
             Char3speech.text = "";
@@ -284,7 +306,7 @@ public class DialogueScene5c : MonoBehaviour
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Cheevers";
+            Char2name.text = "CHEEVERS";
             Char2speech.text = "NOW DIE!!!";
             Char3name.text = "";
             Char3speech.text = "";
@@ -298,9 +320,11 @@ public class DialogueScene5c : MonoBehaviour
         //ENCOUNTER AFTER CHOICE #2
         else if (primeInt == 200)
         {
+            ArtChar1.SetActive(false);
+            ArtChar2.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Cheevers";
+            Char2name.text = "CHEEVERS";
             Char2speech.text = "No! You can’t do this! I thought you were different!";
             Char3name.text = "";
             Char3speech.text = "";
@@ -309,7 +333,9 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 201)
         {
-            Char1name.text = "You";
+            ArtChar2.SetActive(false);
+            ArtChar1.SetActive(true);
+            Char1name.text = "YOU";
             Char1speech.text = "Don't make this difficult.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -320,9 +346,9 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 202)
         {
-            ArtChar2.SetActive(false);
+            ArtChar1.SetActive(false);
             Char1name.text = "";
-            Char1speech.text = "With a single punch, you knock Cheevers out cold.\nA bell rings out in the room.";
+            Char1speech.text = "(With a single punch, you knock Cheevers out cold.\nA bell rings out in the room.)";
             Char2name.text = "";
             Char2speech.text = "";
             Char3name.text = "";
@@ -337,14 +363,16 @@ public class DialogueScene5c : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-            Char3name.text = "Keeper";
+            Char3name.text = "KEEPER";
             Char3speech.text = "Wow, you knocked out that helpless beaver without a shred of mercy! I like your ruthlessness!";
             Char4name.text = "";
             Char4speech.text = "";
         }
         else if (primeInt == 204)
         {
-            Char1name.text = "You";
+            ArtChar3.SetActive(false);
+            ArtChar1.SetActive(true);
+            Char1name.text = "YOU";
             Char1speech.text = "Where's my prize?";
             Char2name.text = "";
             Char2speech.text = "";
@@ -355,19 +383,22 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 205)
         {
+            ArtChar1.SetActive(false);
+            ArtChar3.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-            Char3name.text = "Keeper";
+            Char3name.text = "KEEPER";
             Char3speech.text = "Not one for conversation, huh? Fine, fine. Here you go.";
             Char4name.text = "";
             Char4speech.text = "";
         }
         else if (primeInt == 206)
         {
+            ArtChar3.SetActive(false);
             Char1name.text = "";
-            Char1speech.text = "The dungeon keeper hands over the golden chalice, and your time machine back to the future.";
+            Char1speech.text = "(The dungeon keeper hands over the golden chalice, and your time machine back to the future.)";
             Char2name.text = "";
             Char2speech.text = "";
             Char3name.text = "";
@@ -378,7 +409,7 @@ public class DialogueScene5c : MonoBehaviour
         else if (primeInt == 207)
         {
             Char1name.text = "";
-            Char1speech.text = "Right as you grab the chalice, you hear the royal guards enter the dungeon.";
+            Char1speech.text = "(Right as you grab the chalice, you hear the royal guards enter the dungeon.)";
             Char2name.text = "";
             Char2speech.text = "";
             Char3name.text = "";
@@ -389,6 +420,7 @@ public class DialogueScene5c : MonoBehaviour
         else if (primeInt == 208)
         {
             ArtChar3.SetActive(false);
+            ArtChar1.SetActive(false);
             ArtChar4.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
@@ -396,12 +428,14 @@ public class DialogueScene5c : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
-            Char4name.text = "Guard";
+            Char4name.text = "GUARD";
             Char4speech.text = "The prince has been killed! Place the castle on lockdown immediately!";
         }
         else if (primeInt == 209)
         {
-            Char1name.text = "You";
+            ArtChar4.SetActive(false);
+            ArtChar1.SetActive(true);
+            Char1name.text = "YOU";
             Char1speech.text = "Alright, time to go!";
             Char2name.text = "";
             Char2speech.text = "";
@@ -412,8 +446,9 @@ public class DialogueScene5c : MonoBehaviour
         }
         else if (primeInt == 210)
         {
+            ArtChar1.SetActive(false);
             Char1name.text = "";
-            Char1speech.text = "You press the gems adorning the outside of the chalice in a specific sequence and a white light glows from the chalice. It grows brighter and fills the room, blinding the guards.";
+            Char1speech.text = "(You press the gems adorning the outside of the chalice in a specific sequence and a white light glows from the chalice. It grows brighter and fills the room, blinding the guards.)";
             Char2name.text = "";
             Char2speech.text = "";
             Char3name.text = "";
@@ -424,7 +459,7 @@ public class DialogueScene5c : MonoBehaviour
         else if (primeInt == 211)
         {
             Char1name.text = "";
-            Char1speech.text = "It grows brighter and brighter, until...";
+            Char1speech.text = "(It grows brighter and brighter, until...)";
             Char2name.text = "";
             Char2speech.text = "";
             Char3name.text = "";
@@ -440,7 +475,9 @@ public class DialogueScene5c : MonoBehaviour
     // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
     public void Choice1aFunct()
     {
-        Char1name.text = "You";
+        ArtChar2.SetActive(false);
+        ArtChar1.SetActive(true);
+        Char1name.text = "YOU";
         Char1speech.text = "Okay, Cheevers. Let's get out of here.";
         Char2name.text = "";
         Char2speech.text = "";
@@ -456,7 +493,9 @@ public class DialogueScene5c : MonoBehaviour
     }
     public void Choice1bFunct()
     {
-        Char1name.text = "You";
+        ArtChar2.SetActive(false);
+        ArtChar1.SetActive(true);
+        Char1name.text = "YOU";
         Char1speech.text = "Sorry Cheevers, but I work alone.";
         Char2name.text = "";
         Char2speech.text = "";
