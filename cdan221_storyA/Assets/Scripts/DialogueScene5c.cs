@@ -516,6 +516,6 @@ public class DialogueScene5c : MonoBehaviour
     }
     public void SceneChangeYOUWIN()
     {
-        SceneManager.LoadScene("Scene2b");
+        SceneManager.LoadScene("SceneEnd2");
     }
 }
