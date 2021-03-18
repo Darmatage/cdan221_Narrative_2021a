@@ -1144,7 +1144,7 @@ MonoBehaviour:
   ArtChar2: {fileID: 1091355700}
   ArtBG1: {fileID: 616331589}
   Choice1a: {fileID: 1378800818}
-  Choice1b: {fileID: 1555707880}
+  Choice1b: {fileID: 1527475363}
   NextScene1Button: {fileID: 1555707880}
   nextButton: {fileID: 483941350}
 --- !u!1 &956397064
