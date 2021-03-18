@@ -186,6 +186,7 @@ public void talking(){         // main story function. Players hit next to progr
 		else if (primeInt == 11){
                 ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
+				ArtChar2b.SetActive(false);
 				ArtChar3.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";
@@ -209,8 +210,8 @@ public void talking(){         // main story function. Players hit next to progr
                 ArtChar1.SetActive(true);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(false);
-				Char1name.text = "KEEPER";
-                Char1speech.text = "Not one for conversation, huh? Fine, fine. Here you go. \n The dungeon keeper hands over the golden chalice, and your time machine back to the future. Right as you grab the cup, you hear the royal guards enter the dungeon.";
+				Char1name.text = "";
+                Char1speech.text = "(The dungeon keeper hands over the golden chalice, and your time machine back to the future. Right as you grab the cup, you hear the royal guards enter the dungeon.)";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -389,6 +390,9 @@ public void talking(){         // main story function. Players hit next to progr
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
+				ArtChar2.SetActive(false);
+				ArtChar2b.SetActive(false);
+				ArtChar3.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -404,6 +408,9 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
+				ArtChar2.SetActive(false);
+				ArtChar2b.SetActive(false);
+				ArtChar3.SetActive(true);
 				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";

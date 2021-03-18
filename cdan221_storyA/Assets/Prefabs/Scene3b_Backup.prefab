@@ -1522,20 +1522,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Char 1 Speech
---- !u!114 &3018648090587806464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7234073929476867805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbe4a61b21c3ebc4abc075dc329794a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 7234073929476867805}
-  mixer: {fileID: 24100000, guid: e97114f853e3d844f984fb8f85ae66a5, type: 2}
 --- !u!1 &3018648090671401951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1965,6 +1951,20 @@ MonoBehaviour:
   Choice1b: {fileID: 3018648089195382130}
   NextScene1Button: {fileID: 3018648089195382130}
   nextButton: {fileID: 3018648090262727036}
+--- !u!114 &3018648090587806464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7234073929476867805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe4a61b21c3ebc4abc075dc329794a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 7234073929476867805}
+  mixer: {fileID: 24100000, guid: e97114f853e3d844f984fb8f85ae66a5, type: 2}
 --- !u!1 &8718713302954436857
 GameObject:
   m_ObjectHideFlags: 0
@@ -2382,7 +2382,7 @@ PrefabInstance:
     - target: {fileID: 5584731376292491371, guid: 1eab8791c76501c498c4ffdb02f717f3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1eab8791c76501c498c4ffdb02f717f3, type: 3}
