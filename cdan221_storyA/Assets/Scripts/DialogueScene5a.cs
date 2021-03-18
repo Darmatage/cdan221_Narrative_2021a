@@ -69,6 +69,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "So, you're gonna take on Crusher, huh? Aren't you confident? Oh well, he's all yours!";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char2bname.text = "";
+                Char2bspeech.text = "";
 				Char3name.text = "";
                 Char3speech.text = "";
 				Char4name.text = "";
@@ -83,6 +85,10 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "CRUSHER";
                 Char2speech.text = "Bring it on! Bring it on then, tough guy! I'll turn you into dust! This is my fiftieth fight of the day, and I've won every single one of 'em so far! I can scrap with the best! Let's go!";
+				Char3name.text = "";
+                Char3speech.text = "";
+				Char4name.text = "";
+                Char4speech.text = "";
         }
        else if (primeInt == 4){
                 ArtChar1.SetActive(false);
@@ -94,6 +100,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "";
                 Char3name.text = "YOU";
                 Char3speech.text = "This guy must be pretty tough. He won fifty fights in a row? How?";
+				Char4name.text = "";
+                Char4speech.text = "";
         }
        else if (primeInt == 5){
                 ArtChar1.SetActive(false);
@@ -105,6 +113,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "Eat my fists of fury!!! HYAHHHH!!!!!";
                 Char3name.text = "";
                 Char3speech.text = "";
+				Char4name.text = "";
+                Char4speech.text = "";
 				//Code for changing the scene
 				nextButton.SetActive(false);
 				allowSpace = false;
@@ -121,6 +131,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "";
                 Char3name.text = "YOU";
                 Char3speech.text = "GET AWAY FROM ME!";
+				Char4name.text = "";
+                Char4speech.text = "";
         }
        else if (primeInt ==7){
 				ArtChar1.SetActive(false);
@@ -166,6 +178,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "He'll be okay, we can just glue him back together. We have to do this after all his fights.";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char2bname.text = "";
+                Char2bspeech.text = "";
                 Char3name.text = "";
                 Char3speech.text = "";
         }
@@ -293,8 +307,8 @@ public void talking(){         // main story function. Players hit next to progr
 		
 		else if (primeInt == 100){
                 ArtChar1.SetActive(false);
-			    ArtChar2.SetActive(false);
-				ArtChar3.SetActive(true);
+			    ArtChar2.SetActive(true);
+				ArtChar3.SetActive(false);
 				ArtChar4.SetActive(false);
 				Char1name.text = "";
                 Char1speech.text = "";
@@ -325,8 +339,8 @@ public void talking(){         // main story function. Players hit next to progr
 		
 		else if (primeInt == 102){
                 ArtChar1.SetActive(false);
-			    ArtChar2.SetActive(false);
-				ArtChar3.SetActive(true);
+			    ArtChar2.SetActive(true);
+				ArtChar3.SetActive(false);
 				ArtChar4.SetActive(false);
 				Char1name.text = "";
                 Char1speech.text = "";
@@ -341,7 +355,8 @@ public void talking(){         // main story function. Players hit next to progr
 		else if (primeInt == 103){
                 ArtChar1.SetActive(false);
 			    ArtChar2.SetActive(false);
-				ArtChar3.SetActive(true);
+				ArtChar2b.SetActive(true);
+				ArtChar3.SetActive(false);
 				ArtChar4.SetActive(false);
 				Char1name.text = "";
                 Char1speech.text = "";
@@ -389,7 +404,7 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
-                Char1name.text = "";
+				Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
