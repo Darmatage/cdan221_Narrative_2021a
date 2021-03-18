@@ -365,7 +365,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "OGRE";
-                Char2speech.text = "Oh, my name’s Grugga, but most people call me Stewie!";
+                Char2speech.text = "Oh, my name’s Gruggastew, but most people call me Stewie!";
                 primeInt = 299;
                 Choice2a.SetActive(false);
                 Choice2b.SetActive(false);

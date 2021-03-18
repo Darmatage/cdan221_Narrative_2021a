@@ -212,7 +212,7 @@ public void talking(){         // main story function. Players hit next to progr
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
-                Char1speech.text = "The thought of what could be kept in that barrel is hauntng.";
+                Char1speech.text = "The thought of what could be kept in that barrel is haunting.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 nextButton.SetActive(true);
@@ -224,7 +224,7 @@ public void talking(){         // main story function. Players hit next to progr
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(false);
                 Char1name.text = "YOU";
-                Char1speech.text = "The thought of what could be kept in that barrel is hauntng.\nIs that what I'm supposed to use to make Agatha her vinegar?";
+                Char1speech.text = "The thought of what could be kept in that barrel is haunting.\nIs that what I'm supposed to use to make Agatha her vinegar?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 nextButton.SetActive(true);
@@ -279,7 +279,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "BLUE HUMANOIDS";
+				Char3name.text = "BLUBIES";
 				Char3speech.text = "HIDE HIDE HIDE!!!";
                 nextButton.SetActive(true);
                 allowSpace = false;
@@ -333,6 +333,7 @@ public void talking(){         // main story function. Players hit next to progr
 				ArtChar3.SetActive(false);
 				ArtBG1.SetActive(true);
 		        ArtBG2.SetActive(true);
+				dialogue.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "";
@@ -347,6 +348,7 @@ public void talking(){         // main story function. Players hit next to progr
 		        ArtChar1.SetActive(true);
 			    ArtChar2.SetActive(false);
 				ArtChar3.SetActive(false);
+				dialogue.SetActive(true);
                 Char1name.text = "YOU";
                 Char1speech.text = "On second thought.... this may have been the wrong call.";
                 Char2name.text = "";

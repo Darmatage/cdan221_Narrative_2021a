@@ -120,7 +120,7 @@ public void talking(){         // main story function. Players hit next to progr
                 ArtChar1.SetActive(true);
 			    ArtChar2.SetActive(false);
 				Char1name.text = "ROWAN";
-                Char1speech.text = "Bah! This is rediculous. I'm not lugging around this barrel any longer!";
+                Char1speech.text = "Bah! This is ridiculous. I'm not lugging around this barrel any longer!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }

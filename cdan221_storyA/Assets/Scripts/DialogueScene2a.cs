@@ -264,7 +264,7 @@ public class DialogueScene2a : MonoBehaviour
             ArtChar2.SetActive(false);
             //ArtChar3.SetActive(false);
             Char1name.text = "";
-            Char1speech.text = "(You spy two chutes at the far side of the room. They appear to be your only option. You need to act fast. Which one?)";
+            Char1speech.text = "(You spy two chutes at the far side of the room. They appear to be your only options. You need to act fast. Which one?)";
             Char2name.text = "";
             Char2speech.text = "";
             nextButton.SetActive(false);

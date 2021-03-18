@@ -74,7 +74,7 @@ public class DialogueSceneIntro : MonoBehaviour
             ArtChar2.SetActive(false);
             ArtChar1.SetActive(true);
             Char1name.text = "YOU";
-            Char1speech.text = "I d-did is commander. I.. I killed him.\nOh god, commander, he was just a boy! I-I killed a child!\nWhat is wrong with me!?!";
+            Char1speech.text = "I d-did it commander. I.. I killed him.\nOh god, commander, he was just a boy! I-I killed a child!\nWhat is wrong with me!?!";
             Char2name.text = "";
             Char2speech.text = "";
             //gameHandler.AddPlayerStat(1);
@@ -140,10 +140,10 @@ public class DialogueSceneIntro : MonoBehaviour
         }
         else if (primeInt == 11)
         {
-            Char1name.text = "COMMANDER";
-            Char1speech.text = "You need to get bac...\nOr this will all be for nothi... ";
-            Char2name.text = "";
-            Char2speech.text = "";
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "COMMANDER";
+            Char2speech.text = "You need to get bac...\nOr this will all be for nothi...";
         }
         else if (primeInt == 12)
         {
