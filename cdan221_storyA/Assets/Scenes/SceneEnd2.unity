@@ -356,7 +356,7 @@ RectTransform:
   m_Children:
   - {fileID: 1599515885}
   m_Father: {fileID: 633834732}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -669,8 +669,8 @@ RectTransform:
   - {fileID: 1636914586}
   - {fileID: 1820409416}
   - {fileID: 305904736}
-  - {fileID: 764443082}
   - {fileID: 339323945}
+  - {fileID: 764443082}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1107,7 +1107,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: f87e1a061be83454a93e7591b1d5d5b5, type: 3}
     - target: {fileID: 181297243769419460, guid: c9fdc9dabb1339f45ad781fc1c7031ee,
         type: 3}
       propertyPath: Loop
